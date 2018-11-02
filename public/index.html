@@ -3,14 +3,37 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Browserify Boilerplate</title>
+    <title>Bowsers Contacts</title>
+    <link rel="stylesheet" href="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <article class="output">
+<h1>Bowsers Contacts</h1>
 
-    </article>
 
-    <script src="hellogoodbye.js"></script>
+  <form action="">
+    <fieldset>
+      <label for="name">Enter a Name</label>
+        <input id="formName" type="text" placeholder="First and Last name">
+    </fieldset>
+
+    <fieldset>
+      <label for="phone">Throw me some Digits</label>
+        <input id="formPhone" type="text" placeholder="(xxx)xxx-xxxx">
+    </fieldset>
+
+    <fieldset>
+      <label for="address">Enter your email</label>
+        <input id="formEmail" type="text" placeholder="Sample@sample.com">
+    </fieldset>
+
+      <input class="formBtn" type="submit" value="Save Info">
+    </form>
+
+    <article class="contact_form"></article>
+
+    <article class="contact_list"></article>
+
+    <script src="bundle.js"></script>
 </body>
 </html>
